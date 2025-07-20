@@ -1,0 +1,70 @@
+:root {
+     --primary: #222831;
+     --sec: #393E46;
+     --acc: #948979;
+     --secacc: #DFD0B8;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: var(--primary);
+    color: aliceblue;
+}
+
+.main-input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.main-input-label {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.main-input {
+    padding: 0.3rem 0.5rem;
+    border-radius: 4px;
+    width: 100%;
+}
+.main-input:focus {
+    outline: none;
+}
+
+.primary-button {
+    background-color: var(--primary);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+
+.bg-blue {
+    background-color: rgb(0, 85, 255);
+}
+
+.bg-red {
+    background-color: rgb(255, 60, 0);
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.w-full {
+    width: 100%;
+}
+
+
+
